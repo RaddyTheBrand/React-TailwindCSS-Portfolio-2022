@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  background-color: #FAF4F0;
+}
+
+.custom__heading {
+  @apply text-4xl lg:text-5xl xl:text-7xl font-bold mb-4
+}
